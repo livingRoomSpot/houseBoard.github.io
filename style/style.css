@@ -3,6 +3,11 @@ html{
       
  }
 
+.flexbox {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
 
  body{
      /* display: flexbox;
@@ -23,15 +28,11 @@ h1{
      padding: 100px;
 }
 
- div {
+div {
      padding: 10px;
      border: 3px black;
 }
 
 
- .flexbox {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-   }
+
  
