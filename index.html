@@ -9,37 +9,51 @@
 
 <body>
  
- <h1>SOUND BOARD </h1>
-	<audio id="vc1" src="sound/hello.mp3"></audio>
-	<audio id="vc2" src="sound/hi.mp3"></audio>
-	<audio id="vc3" src="sound/ok.mp3"></audio>
-	<audio id="vc4" src="sound/welcome.mp3"></audio>
-	<audio id="vc5" src="sound/yes.mp3"></audio>
-    <audio id="vc6" src="sound/no.mp3"></audio>
-<bt1>
-	<button class="btn btn-danger"onclick="document.getElementById('vc1').play()">HELLO</button>
-</bt1>
+	<div class = "parent">
+	
+		<h1 class="title">THE SOUND BOARD</h1>
 
-<bt2>
- 	<button class="btn btn-danger"onclick="document.getElementById('vc2').play()">HI</button>
- </bt2>
+		<audio id="vc1" src="sound/really.mp4"></audio>
+		<audio id="vc2" src="sound/hellNah.mp4"></audio>
+		<audio id="vc3" src="sound/hamSandwich.mp4"></audio>
+		<audio id="vc4" src="sound/vine.mp4"></audio>
+		<audio id="vc5" src="sound/yeet.mp4"></audio>
+		<audio id="vc6" src="sound/Fard1.mp4"></audio>
+		<audio id="vc7" src="sound/Fard2.mp4"></audio>
 
- <bt3>
- 	<button class="btn btn-danger"onclick="document.getElementById('vc3').play()">OK</button>
- </bt3>
+		<div id = "container1", class = "flex">
+				<bt1>
+					<button class="btn btn-danger"onclick="document.getElementById('vc1').play()">Really</button>
+				</bt1>
 
-<bt4>
- 	<button class="btn btn-danger"onclick="document.getElementById('vc4').play()">WELCOME</button>
- </bt4>
+				<bt2>
+					<button class="btn btn-danger"onclick="document.getElementById('vc2').play()">Hell NAH</button>
+				</bt2>
 
-<bt5>
- 	<button class="btn btn-danger"onclick="document.getElementById('vc5').play()">YES</button>
- </bt5>
+				<bt3>
+					<button class="btn btn-danger"onclick="document.getElementById('vc3').play()">Ham Sandwich</button>
+				</bt3>
 
-<bt6>
- 	<button class="btn btn-danger"onclick="document.getElementById('vc6').play()">NO</button>
- </bt6>
+				<bt4>
+					<button class="btn btn-danger"onclick="document.getElementById('vc4').play()">BOOOOM</button>
+				</bt4>
+		</div>
 
+		<div id = "container2", class = "flex">
+				<bt5>
+					<button class="btn btn-danger"onclick="document.getElementById('vc5').play()">YEEEET</button>
+				</bt5>
+
+				<bt6>
+					<button class="btn btn-danger"onclick="document.getElementById('vc6').play()">Fard 1</button>
+				</bt6>
+
+				<bt7>
+					<button class="btn btn-danger"onclick="document.getElementById('vc7').play()">Fard 2</button>
+				</bt7>
+		</div>
+		
+	</div>
 </body>
  
 </html>
